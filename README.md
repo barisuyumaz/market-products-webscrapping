@@ -14,3 +14,11 @@
 * Define: hostname, database, username, pwd(password), port_id correctly.
 
 ## Run 'marketveriler-selenium.py' file, it might take long time
+
+
+# Some Results from the Database:
+(Note: This results are old and not 100% correct, but codes are remastered and scrapping datas correctly!)
+
+* In Postgresql we got some informations about our datas.
+select * from products;
+![image](https://user-images.githubusercontent.com/44267861/226697720-2caaacff-dd98-44b8-b663-d90112f18dcc.png)
