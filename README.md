@@ -19,6 +19,9 @@
 # Some Results from the Database:
 (Note: This results are old and not 100% correct, but codes are remastered and scrapping datas correctly!)
 
-* In Postgresql we got some informations about our datas.
-select * from products;
+* select * from products;
 ![image](https://user-images.githubusercontent.com/44267861/226697720-2caaacff-dd98-44b8-b663-d90112f18dcc.png)
+
+* select origin,count(*) from products where origin != 'TÜRKİYE' group by origin order by origin; --hangi ülkenin kaç ürünü var
+![product_origin_bar](https://user-images.githubusercontent.com/44267861/226697996-a0865e17-17bb-47c2-8333-79d4d0d44809.png)
+
